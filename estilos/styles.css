@@ -188,7 +188,7 @@ h4{
     background-color: #BCDF9A; 
     grid-row-start: 3;
     grid-column-start: 1;
- 
+    padding-top: 200px;
     grid-row-end: 5;
     grid-column-end: 3;
     
@@ -202,6 +202,9 @@ h4{
     grid-row-end: 7;
     grid-column-end: 5;
     
+ }
+ #juegos{
+     padding-top: 100px;
  }
  #item-7 {
  
