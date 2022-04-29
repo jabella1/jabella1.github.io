@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+<head>
+    <meta name="description" content = "web personal">
+    <meta name = "keywords" content="template">
+    <title> Plantilla HTML CSS</title>
+    <link rel="stylesheet" href="estilos/styles.css"/>
+    <link rel="stylesheet" href="estilos/estilo_tabla.css"/>
+</head>
+<body>
+    <header id="cabecera" >
+        <br><br>
+        <h4>Taller maquetado HTML CSS</h4>
+    </header>
+    <nav>
+        <ul class = "navegacionPrin">
+            <li> <a href="index.html"> Principal </a> </li> <!-- la etiqueta <a> permite poner hipervinculos-->
+            <li> <a href="estudios.html"> Estudios </a> </li> <!-- la etiqueta a permite poner hipervinculos-->
+            <li> <a href="proyectos.html"> Proyectos </a> </li> <!-- la etiqueta a permite poner hipervinculos-->
+            <li> <a href="pasatiempos.html"> Pasatiempos </a> </li> <!-- la etiqueta a permite poner hipervinculos-->
+            <li> <a href="contacto.html">  Contacto </a> </li> <!-- la etiqueta a permite poner hipervinculos-->
+        </ul>
+    </nav>
+    <section id="contenido">
+
+        <section id="contenidoPri"> <!--original es contenidoprin, le borre la n para que no se modifique el fondo-->
+            <table id="tabla">
+                <tr>
+                    <th> # </th>
+                    <th>Titulo o curso </th>
+                    <th>Institucion</th>
+                    <th>Ciudad</th>
+                    <th>Año</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Basica Primaria</td>
+                    <td>Escuela Salvador Iglesias</td>
+                    <td>Cali</td>
+                    <td>2008</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Bachiller</td>
+                    <td>Institucion educativa Santa Librada</td>
+                    <td>Cali</td>
+                    <td>2016</td>
+                </tr>
+
+            </table>
+        </section>
+    </section>
+    <footer id="piePrin">
+        <br><br>
+        <h2>Copyright 2022 &copy; <?= date('Y') ?> - Ingenieria de Sistemas</h2>
+        <h2>Universidad del Cauca</h2>
+        <a href="#"><img src="archivos/img2.png" width="25px" height="25px"/></a>
+    </footer>
+</body>
+</html>

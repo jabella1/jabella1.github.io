@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+<head>
+    <meta name="description" content = "web personal">
+    <meta name = "keywords" content="template">
+    <title> Plantilla HTML CSS</title>
+    <link rel="stylesheet" href="estilos/styles.css"/>
+</head>
+<body>
+    <header id="cabecera" >
+        <br><br>
+        <h4>Taller maquetado HTML CSS</h4>
+    </header>
+    <nav>
+        <ul class = "navegacionPrin">
+            <li> <a href="index.html"> Principal </a> </li> <!-- la etiqueta <a> permite poner hipervinculos-->
+            <li> <a href="estudios.html"> Estudios </a> </li> <!-- la etiqueta a permite poner hipervinculos-->
+            <li> <a href="proyectos.html"> Proyectos </a> </li> <!-- la etiqueta a permite poner hipervinculos-->
+            <li> <a href="pasatiempos.html"> Pasatiempos </a> </li> <!-- la etiqueta a permite poner hipervinculos-->
+            <li> <a href="contacto.html">  Contacto </a> </li> <!-- la etiqueta a permite poner hipervinculos-->
+        </ul>
+    </nav>
+    <section id="contenido">
+        <section id="contenidoPrin">
+            <section id="imagen" >
+                <figure>
+                    <img src="archivos/img1.jpg" width="100%" height="100%">
+                </figure>
+            </section>
+            <article id="articulo1">
+                <header id="titulo">
+                    <h3> Introduccion </h3>
+                </header>
+                        <p>Un párrafo, también llamado parágrafo (del griego παράγραφος [parágraphos], y este de παρα, «próximo, 
+                           semejante», y γραφος, «escritura»), es una unidad comunicativa formada por un conjunto de oraciones
+                            secuenciales que trata un mismo tema. Está compuesto por un conjunto de oraciones que tienen cierta
+                             unidad temática o que, sin tenerla, se enuncian juntas. Es un componente del texto que en su aspecto
+                          externo comienza con una mayúscula y termina en un punto y aparte. Comprende varias oraciones relacionadas
+                             sobre el mismo subtema; una de ellas expresa la idea principal.</p>
+                        <p>
+                            Consiste en la referencia común de cada una de sus partes, es decir, que la oración principal 
+                            como las secundarias se refieren a un solo hecho. La coherencia es la organización apropiada de 
+                            las oraciones de tal forma que el contenido del párrafo sea lógico, claro y se entienda.
+                            En la literatura de ficción, el párrafo es algo más abstracto y depende su configuración de la técnica del escritor y
+                             de las características de la acción en la narración. La ordenación de las diferentes frases dentro del párrafo es más
+                            libre, y, lo más relevante, la frase con mayor peso narrativo puede aparecer al comienzo, al medio o al final.
+
+                            Un párrafo puede ser tan corto como una palabra o abarcar varias páginas. Un caso extremo se produce en El 
+                            cazador de leones, de Javier Tomeo, una novela corta compuesta por dos párrafos. El primero ocupa casi la 
+                            totalidad de la novela.
+                        </p>
+                        <br><br><br>
+            </article>
+        </section>
+    </section>
+    <footer id="piePrin">
+        <br><br>
+        <h2>Copyright 2022 &copy; <?= date('Y') ?> - Ingenieria de Sistemas</h2>
+        <h2>Universidad del Cauca</h2>
+        <a href="#"><img src="archivos/img2.png" width="25px" height="25px"/></a>
+    </footer>
+    
+</body>
+</html>

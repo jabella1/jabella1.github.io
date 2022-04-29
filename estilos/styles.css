@@ -1,0 +1,215 @@
+@charset "utf-8";
+/*Documento Original CSS*/
+body{
+    background-color: #ffffff;
+}
+
+#cabecera{
+    background-color: black;
+    height: 150px;
+    border-radius: .5em;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0.2em 0.6em 0.6em blue;
+}
+
+
+.navegacionPrin{
+    list-style: none;
+    background: gray;
+    padding: 0px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.navegacionPrin li a{
+    text-shadow: 0.1em 0.1em 0.2em blue;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    border-radius: .5em;
+}
+
+.navegacionPrin li{ /* selector compuesto de clase y contenido (li)*/
+    display: inline-block; /* poner la lista de opciones horizontal, la barra de navegacion*/
+    text-align: center;
+    background-color: gray;
+    color: black;
+}
+
+.navegacionPrin li a:hover{ /* EFECTO CUANDO SE PASE EL CURSOR POR ENCIMA DE LA BARRA DE NAVEGACION.*/
+    background-color: #2d3e50;
+    color: red;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+li{
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+#contenido{
+    max-width: 90%;
+    margin: auto;
+    background-color: #ffffff;
+    min-height: 500px;
+
+}
+
+#contenidoPrin{
+    background-color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 500px;
+    padding-top: 15px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/22/17/06/gradient-1761190_960_720.jpg");
+  /*  border: 1px solid;
+    border-color: red;
+    */
+}
+
+#imagen{
+    float: right; /* propiedad que permite establecer la imagen a la derecha*/
+    max-width: 300px;
+    margin-top: 50px;
+}
+
+#articulo{
+    border: 1px solid;
+}
+
+#titulo{
+    text-align: center;
+}
+
+#piePrin{
+    background-color: black;
+    clear:both; /* principal propiedad para que el pie de pagina quede conforme a la distribucion ya hecha.*/
+    max-width: 90%;
+    margin-top: 30px;
+    height: 150px;
+    border-radius: .5em;
+    margin:auto;
+    text-align: center;
+}
+
+
+h2{
+    color: white;
+    font-family: "Courier New";
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 0.2em 0.6em 0.6em blue;
+}
+
+h3{
+    color: black;
+    font: normal 22px arial;
+    font-weight: bold;
+}
+
+
+h4{
+    color:#ffffff;
+    font-family: "Courier New";
+    font-size:20px;
+    text-align: center;
+}
+
+.angry-grid {
+    display: grid; 
+ 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    gap: 0px;
+    height: 100%;
+    
+ }
+   
+ #item-0 {
+ 
+    background-color: #6DE9DA; 
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 3;
+    grid-column-end: 3;
+    
+ }
+ #item-1 {
+
+    background-color: #5DDEC7; 
+    grid-row-start: 1;
+    grid-column-start: 3;
+    padding-top: 200px;
+    text-align: center;
+    grid-row-end: 3;
+    grid-column-end: 5;
+    
+ }
+ #item-2 {
+ 
+    background-color: #77EDD5; 
+    grid-row-start: 5;
+    grid-column-start: 1;
+ 
+    grid-row-end: 7;
+    grid-column-end: 3;
+    
+ }
+ #item-3 {
+ 
+    background-color: #559975; 
+    grid-row-start: 7;
+    grid-column-start: 3;
+ 
+    grid-row-end: 9;
+    grid-column-end: 5;
+    
+ }
+ #item-4 {
+  
+    background-color: #BF65B6; 
+    grid-row-start: 3;
+    grid-column-start: 3;
+ 
+    grid-row-end: 5;
+    grid-column-end: 5;
+    
+ }
+ #item-5 {
+ 
+    background-color: #BCDF9A; 
+    grid-row-start: 3;
+    grid-column-start: 1;
+ 
+    grid-row-end: 5;
+    grid-column-end: 3;
+    
+ }
+ #item-6 {
+ 
+    background-color: #F5B975; 
+    grid-row-start: 5;
+    grid-column-start: 3;
+ 
+    grid-row-end: 7;
+    grid-column-end: 5;
+    
+ }
+ #item-7 {
+ 
+    background-color: #DF5589; 
+    grid-row-start: 7;
+    grid-column-start: 1;
+ 
+    grid-row-end: 9;
+    grid-column-end: 3;
+    
+ }
