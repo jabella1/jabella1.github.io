@@ -143,7 +143,8 @@ h4{
     
     padding-bottom: 320px;
     text-align: center;
-    background-color: #6DE9DA; 
+    /*background-color: #6DE9DA;*/
+    background-color:#f5d074; 
     grid-row-start: 1;
     grid-column-start: 1;
     font-weight: bold;
@@ -153,7 +154,8 @@ h4{
  }
  #item-1 {
     text-align:left;
-    background-color: #5DDEC7; 
+   /* background-color: #5DDEC7; */
+   background-color: #e7e393; 
     grid-row-start: 1;
     grid-column-start: 3;
     padding-top: 100px;
@@ -164,11 +166,12 @@ h4{
  }
  #item-2 {
     text-align: center;
-    background-color: #77EDD5; 
+    /*background-color: #77EDD5;*/
+    background-color: #f5d074; 
     grid-row-start: 5;
     grid-column-start: 1;
 
-    padding-top: 55px;
+    padding-top: 22px;
  
     grid-row-end: 7;
     grid-column-end: 3;
@@ -178,10 +181,11 @@ h4{
     
     text-align: center;
     
-    background-color: #559975; 
+    /* background-color: #559975; */
+    background-color: #f5d074;
     grid-row-start: 7;
     grid-column-start: 3;
-    padding-top: 70px;
+    padding-top: 40px;
  
     grid-row-end: 9;
     grid-column-end: 5;
@@ -190,7 +194,8 @@ h4{
  #item-4 {
     
     text-align: center;
-    background-color: #BF65B6; 
+    /*background-color: #BF65B6;*/
+    background-color: #f5d074; 
     grid-row-start: 3;
     grid-column-start: 3;
  
@@ -200,7 +205,8 @@ h4{
  }
  #item-5 {
     text-align: center;
-    background-color: #BCDF9A; 
+    /*background-color: #BCDF9A;*/
+    background-color: #e7e393;
     grid-row-start: 3;
     grid-column-start: 1;
     padding-top: 100px;
@@ -210,7 +216,8 @@ h4{
  }
  #item-6 {
     text-align: center;
-    background-color: #F5B975; 
+    /*background-color: #F5B975; */
+    background-color: #e7e393;
     grid-row-start: 5;
     grid-column-start: 3;
     padding-top: 100px;
@@ -221,12 +228,12 @@ h4{
  }
 
  #juegos{
-     padding-top: 70px;
+     padding-top: 40px;
  }
 
  #item-7 {
     text-align: center;
-    background-color: #e69bb8; 
+    background-color: #e7e393; 
     grid-row-start: 7;
     grid-column-start: 1;
     padding-top: 110px;
