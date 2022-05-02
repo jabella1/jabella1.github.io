@@ -141,7 +141,7 @@ h4{
    
  #item-0 {
     
-    padding-bottom: 305px;
+    padding-bottom: 320px;
     text-align: center;
     background-color: #6DE9DA; 
     grid-row-start: 1;
@@ -168,7 +168,7 @@ h4{
     grid-row-start: 5;
     grid-column-start: 1;
 
-    padding-top: 50px;
+    padding-top: 55px;
  
     grid-row-end: 7;
     grid-column-end: 3;
@@ -181,7 +181,7 @@ h4{
     background-color: #559975; 
     grid-row-start: 7;
     grid-column-start: 3;
-    padding-top: 60px;
+    padding-top: 70px;
  
     grid-row-end: 9;
     grid-column-end: 5;
@@ -221,7 +221,7 @@ h4{
  }
 
  #juegos{
-     padding-top: 60px;
+     padding-top: 70px;
  }
 
  #item-7 {
@@ -286,7 +286,7 @@ h4{
  input[type="text"],
  input[type="email"],
  button{
-     margin-left: 550px;
+     margin-left: 565px;
  }
 
  textarea{
@@ -294,7 +294,7 @@ h4{
  }
 
  input[type="submit"]{
-     margin-left: 600px;
+     margin-left: 618px;
  }
 
  ul,li{
