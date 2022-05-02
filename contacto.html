@@ -10,7 +10,7 @@
 <body>
     <header id="cabecera" >
         <br><br>
-        <h4>Taller maquetado HTML CSS</h4>
+        <h4>WEB PERSONAL</h4>
     </header>
     <nav>
         <ul class = "navegacionPrin">
@@ -24,13 +24,31 @@
     <section id="contenido">
         <section id="contenidoPrin">
             
+            <header id="titulo">
+                <h3> Contacto </h3>
+            </header>
+            <form id="formulario" action = "<?=base_url?>Problema/guardar" method="POST">
+
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre" required />
+
+                <label for="Email">Correo Electronico</label>
+                <input type="email" name="Email" required />
+                
+                <label for="Mensaje">Mensaje</label>
+                <textarea name="Mensaje" cols = "50" rows="5" style="resize:both;"></textarea>
+            
+                <input type ="submit" value="Enviar"/>
+                    
+            </form>
         </section>
     </section>
     <footer id="piePrin">
         <br><br>
         <h2>Copyright 2022 &copy; <?= date('Y') ?> - Ingenieria de Sistemas</h2>
         <h2>Universidad del Cauca</h2>
-        <a href="#"><img src="archivos/img2.png" width="25px" height="25px"/></a>
+        <a href="https://www.facebook.com/juan.abella2/"><img src="archivos/Imagenes/LogoFacebook.jpg" width="25px" height="25px"/></a>
+        <a href="https://wa.me/+573158557112"><img src="archivos/Imagenes/WhatsApp-logo.jpg" width="40px" height="25px"/></a>
     </footer>
 </body>
 </html>
