@@ -133,15 +133,16 @@ h4{
 
 .grid_layout {
     display: grid; 
-    max-width: 100%;
-    grid-template-rows: 10px 0.5fr 10px 0.5fr 10px 0.5fr 10px 0.5fr;
-    grid-template-columns: 10px 1fr 10px 1fr;
+    max-width: auto;
+    padding: auto;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
     padding-bottom: 25px;
  }
    
  #item-0 {
     
-    padding-bottom: 320px;
+    padding-bottom: auto;
     text-align: center;
     /*background-color: #6DE9DA;*/
     background-color:#f5d074; 
@@ -150,8 +151,10 @@ h4{
     font-weight: bold;
     grid-row-end: 3;
     grid-column-end: 3;
-    
  }
+
+
+
  #item-1 {
     text-align:left;
    /* background-color: #5DDEC7; */
@@ -171,8 +174,6 @@ h4{
     grid-row-start: 5;
     grid-column-start: 1;
 
-    padding-top: 22px;
- 
     grid-row-end: 7;
     grid-column-end: 3;
     
@@ -185,7 +186,7 @@ h4{
     background-color: #f5d074;
     grid-row-start: 7;
     grid-column-start: 3;
-    padding-top: 40px;
+    
  
     grid-row-end: 9;
     grid-column-end: 5;
@@ -203,13 +204,14 @@ h4{
     grid-column-end: 5;
     
  }
+
  #item-5 {
     text-align: center;
     /*background-color: #BCDF9A;*/
     background-color: #e7e393;
     grid-row-start: 3;
     grid-column-start: 1;
-    padding-top: 100px;
+    padding-top: 80px;
     grid-row-end: 5;
     grid-column-end: 3;
     
@@ -227,9 +229,6 @@ h4{
     
  }
 
- #juegos{
-     padding-top: 40px;
- }
 
  #item-7 {
     text-align: center;
@@ -244,6 +243,8 @@ h4{
  }
 
  /*FORMULARIO*/
+
+ 
 
  input[type="text"],
  input[type="email"],
@@ -286,23 +287,11 @@ h4{
  input[type="email"],
  input[type="submit"],textarea,
  button{
-     display: block;
-     margin-top: 30px;
- }
-
- input[type="text"],
- input[type="email"],
- button{
-     margin-left: 565px;
- }
-
- textarea{
-     margin-left: 450px;
- }
-
- input[type="submit"]{
-     margin-left: 618px;
- }
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+ } 
 
  ul,li{
      background-color: #eae6e6;
