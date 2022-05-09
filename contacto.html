@@ -29,7 +29,7 @@
                 <h3> Contacto </h3>
             </header>
 
-            <form id="formulario" action = "contacto.html" method="POST">
+            <form id="formulario" action = "<?=base_url?>Problema/guardar" method="POST">
 
                 <label for="Nombre">Nombre</label>
                 <input type="text" name="Nombre" required />
@@ -40,7 +40,7 @@
                 <label for="Mensaje">Mensaje</label>
                 <textarea name="Mensaje" cols = "50" rows="5" style="resize:both;"></textarea>
             
-                <input type ="submit" value="Enviar"/>
+                <input type ="submit"  value="Enviar" />
                     
             </form>
         
